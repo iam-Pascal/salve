@@ -1,0 +1,58 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "**.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "compressed",
+                "sourceMap": ""
+            },
+            "noDistractions": true,
+            "linting.collapsed": true,
+            "fonts.fontSize": "12px",
+            "hirse.outline.enabled": false,
+            "brackets-git.gitPath": "C:\\Program Files\\Git\\cmd\\git.exe",
+            "useTabChar": false,
+            "mikaeljorhult.bracketsPHPLintTools.php-available": false,
+            "alemonteiro.bracketsSqlConnector.server_list": {
+                "selected_id": 0,
+                "server_ids": 0,
+                "servers": {}
+            },
+            "brackets-git.stripWhitespaceFromCommits": true,
+            "brackets-git.addEndlineToTheEndOfFile": true,
+            "brackets-git.removeByteOrderMark": false,
+            "brackets-git.normalizeLineEndings": false,
+            "brackets-git.useGitGutter": true,
+            "brackets-git.markModifiedInTree": true,
+            "brackets-git.showBashButton": true,
+            "brackets-git.useCodeInspection": true,
+            "brackets-git.useGitFtp": false,
+            "brackets-git.useVerboseDiff": false,
+            "brackets-git.useDifftool": false,
+            "brackets-git.showTerminalIcon": false,
+            "brackets-git.clearWhitespaceOnSave": false,
+            "brackets-git.avatarType": "AVATAR_COLOR",
+            "brackets-git.dateMode": 1,
+            "brackets-git.dateFormat": null,
+            "brackets-git.enableAdvancedFeatures": false,
+            "brackets-git.panelShortcut": "Ctrl-Alt-G",
+            "brackets-git.commitCurrentShortcut": null,
+            "brackets-git.commitAllShortcut": null,
+            "brackets-git.bashShortcut": null,
+            "brackets-git.pushShortcut": null,
+            "brackets-git.pullShortcut": null,
+            "brackets-git.gotoPrevChangeShortcut": null,
+            "brackets-git.gotoNextChangeShortcut": null,
+            "brackets-git.refreshShortcut": null,
+            "brackets-git.gitTimeout": 30,
+            "brackets-git.terminalCommand": null,
+            "brackets-git.terminalCommandArgs": null,
+            "brackets-git.debugMode": false,
+            "colorspp_pref.optionsValues": "{\"options-enable-extension\":[{\"options-enable-extension-all\":\"all\"},{\"options-enable-extension-CSS\":\"CSS\"},{\"options-enable-extension-less\":\"less\"},{\"options-enable-extension-SCSS\":\"SCSS\"}],\"options-show-sections\":[{\"option-show-sections-color-picker\":\"color-picker\"},{\"option-show-sections-document-colors\":\"document-colors\"},{\"option-show-sections-document-color-variables\":\"document-color-variables\"},{\"option-show-sections-color-combinations\":\"color-combinations\"},{\"option-show-sections-function-variants\":\"function-variants\"}],\"options-highlight-colors\":\"background\",\"options-highlight-variables\":\"background\",\"options-highlight-functions\":\"background\"}"
+        }
+    }
+}

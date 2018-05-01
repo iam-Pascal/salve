@@ -1,0 +1,100 @@
+@keyframes glide{
+    0%{
+        background-image: url(../images/jackson.jpeg);
+    }
+    25%{
+         background-image: url(../images/pic01.jpg);
+    }
+    50%{
+         background-image: url(../images/f4.jpeg);
+    }
+   75%{
+         background-image: url(../images/pic03.jpg);
+    }
+    100%{
+         background-image: url(../images//sisi.jpeg);
+    }
+}
+
+
+
+
+
+@keyframes showcase {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    75% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+
+
+@keyframes come-down {
+    0% {
+        transform: scaleY(0);
+    }
+    75% {
+        transform: scaleY(1);
+    }
+}
+
+
+@keyframes all-border {
+    0%{}
+    25% {
+        border-top: 1px solid #fff;
+        transition: 1s ease-in;
+    }
+    50% {
+        border-right: 1px solid #fff;
+        transition: 1s ease-in;
+    }
+    75% {
+        border-bottom: 1px solid #fff;
+        transition: 1s ease-in;
+    }
+    100% {
+        border-left: 1px solid #fff;
+        transition: 1s ease-in;
+        border: 1px solid #fff;
+    }
+}

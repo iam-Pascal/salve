@@ -1,0 +1,98 @@
+@media (max-width:768px) {
+    .nav-bar {
+        .menu {
+            display: none;
+        }
+    }
+    .container {
+        width: 95%;
+        margin: 4% auto 0;
+    }
+    .flex {
+        height: auto;
+        padding: 15px;
+        margin-bottom: 10px;
+        .empty {
+            width: 95%;
+            .cart,
+            .shop {
+                width: 48%;
+                margin: 4% auto 0;
+                float: none;
+                padding: .8em 1.4em;
+            }
+            img {
+                display: none;
+            }
+        }
+    }
+    .pen2 {
+        .text {
+            width: 100%;
+            background: rgba(44, 87, 50, .5);
+            h2 {
+                font-size: 2em;
+            }
+        }
+        .image {
+            display: none;
+        }
+    }
+    .gallery {
+        width: 95%;
+        margin: 10px auto 0;
+        //border: 1px solid red;
+        .img-con {
+            width: 80%;
+            margin: 10px auto 0;
+            //border: 1px solid #111;
+            float: none;
+            padding: 0;
+            .avatar {
+                width: inherit;
+                height: 100%;
+                margin-left: 3em;
+            }
+        }
+    }
+    .products {
+        .brushes {
+            width: 100%;
+        }
+        .b-text {
+            width: 96%;
+            margin: 10% auto 0;
+            position: absolute;
+            h2 {
+                color: #f7f7f7;
+                font-size: 1.8em;
+                text-align: center;
+            }
+            p {
+                color: #fff;
+            }
+        }
+    }
+    .messages {
+        .inner-message {
+            display: none;
+        }
+        .feedback {
+            width: 90%;
+            margin: 10px auto 0;
+            float: none;
+            /*&:after {
+                content: "Your Feedback ";
+                top: 10px;
+                left: 40px;
+                position: absolute;
+                width: auto;
+            }*/
+            textarea {
+                margin: 5px auto 0;
+                width: 90%;
+                resize: none;
+            }
+        }
+    }
+}
